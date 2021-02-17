@@ -38,7 +38,6 @@ function ma_anuncios_init()
     );
 
     register_post_type('anuncio', $array);
-    add_action('admin_enqueue_scripts', 'ma_enqueue');
 }
 
 
